@@ -1,0 +1,52 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+nav {
+  background-color: rgb(235, 235, 235);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.portrait {
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.work-img {
+  width: 20%;
+  height: 20%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+}
